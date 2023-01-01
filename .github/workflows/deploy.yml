@@ -11,7 +11,7 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.3
       with:
-        server:  ftp.jplovett.net
+        server:  ftpes://server311.web-hosting.com
         username: admin@jplovett.net
         password: ${{ secrets.FTP_PWORD }}
 
