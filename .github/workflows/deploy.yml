@@ -11,8 +11,7 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.3
       with:
-        server:  ${{ secrets.FTP_SERVER }}
-        username: ${{ secrets.FTP_USER }}
+        server:  ftp.jplovett.net
+        username: admin@jplovett.net
         password: ${{ secrets.FTP_PWORD }}
-        protocol: ftps
-        port: 21
+
