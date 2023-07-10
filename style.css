@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.0;
+    background-color: #fff;
+    color: #2a2a2a;
+    font-family: Verdana, Arial, sans-serif;
+    border-spacing: 0px;
+}
+
+.b {
+    font-weight: bold;
+}
+
+.t0 {
+    font-size: 0.75rem;
+}
+
+.t1 {
+    font-size: 1.0rem;
+}
+
+.t2 {
+    font-size: 1.1rem;
+}
+
+.t3 {
+    font-size: 1.25rem;
+}
+
+.t4 {
+    font-size: 1.5rem;
+}
+
+.t5 {
+    font-size: 2rem;
+}
+
+.t6 {
+    font-size: 2.6rem;
+}
+
+.list-group-item {
+    width: 95%;
+    margin: 1% !important;
+}
+
+@media (min-width: 576px) {
+    .list-group-item {
+        width: 47%;
+        margin: 5px 1.5% !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .list-group-item {
+        width: 31.333%;
+        margin: 5px 1% !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .list-group-item {
+        width: 23%;
+        margin: 5px 1% !important;
+    }
+}
